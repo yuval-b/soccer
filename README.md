@@ -29,6 +29,8 @@ Listed in chronological order.
 
 **Generating Figures for Poster:** a standalone notebook for generating figures for the poster.
 
+For reference, the repository with all the code created by J. Makins can be located here: https://github.com/bjornmakins/soccer1 . 
+
 ## References:
 
 [1]  J.  Makins,  S.  Mistry,  A.  Krishna,  and  M.  S.  Islam,  “Fdnn-based  feature  extraction  and prediction modeling in live soccer analytics,” Under review, 2021.
