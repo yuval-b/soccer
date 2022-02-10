@@ -12,6 +12,14 @@ We investigate using network metrics and event logs data to correlate temporal n
 
 ## Code Notebooks Explanations:
 
+Listed in chronological order.
+
+**Data Cleaning:** this notebook 'cleans' the initial event logs data into more usable form- stored as 'cleaned_events/events_COUNTRY.json'. Credit to J. Makins for this code.
+
+**SoccerNets**: this notebook takes the 'cleaned' event logs data and generates networks on ten minute sliding windows. It calculates a host of key metrics for each network and saves them into dataframes, each dataframe is for one country on one metric- it includes all games in the country and the trajectories of that particular metric for each game.
+
+**Multivariate TimeSeries predictions:** this notebook takes the input from above and uses multivariate timeseries classification algorithms to assign each timeseries to a particular match outcome (win, draw, loss).
+
 
 
 
