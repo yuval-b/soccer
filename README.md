@@ -29,6 +29,8 @@ Listed in chronological order.
 
 **Generating Figures for Poster:** a standalone notebook for generating figures for the poster.
 
+**First topaz run.slm**: Topaz job request used when tuning the hyperparameters of the fDNN algorithm- for most other jobs this would change to gpu=1, nodes=1.
+
 For reference, the repository with all the code created by J. Makins can be located here: https://github.com/bjornmakins/soccer1 . 
 
 ## References:
